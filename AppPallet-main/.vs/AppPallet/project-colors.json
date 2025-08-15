@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "75ee8726-88a4-44f7-8fb5-408e9a9e8fcc": {
+      "ProjectGuid": "75ee8726-88a4-44f7-8fb5-408e9a9e8fcc",
+      "DisplayName": "AppPallet",
+      "ColorIndex": 0
+    },
+    "87bcc5ea-21d4-4e1a-931a-854288529913": {
+      "ProjectGuid": "87bcc5ea-21d4-4e1a-931a-854288529913",
+      "DisplayName": "AppPallet.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

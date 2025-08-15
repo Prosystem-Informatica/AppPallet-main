@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:sfDatePicker="clr-namespace:Syncfusion.XForms.Pickers;assembly=Syncfusion.SfPicker.XForms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppPallet"
+             x:Class="AppPallet.Views.BaixaPalletPage"
+             xmlns:vm="clr-namespace:AppPallet.ViewModels"
+             Title="{Binding Title}"
+             xmlns:tool="http://xamarin.com/schemas/2020/toolkit"
+             NavigationPage.HasBackButton="False">
+
+    <ContentPage.BindingContext>
+        <vm:BaixaPalletViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+            <Style TargetType="Entry" ApplyToDerivedTypes="True">
+                <Setter Property="Visual" Value="Material" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+            </Style>
+            <Style TargetType="DatePicker" ApplyToDerivedTypes="True">
+                <Setter Property="Visual" Value="Material" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <AbsoluteLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+
+                    <!-- Data Section -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Data :" FontSize="Medium" Grid.Column="0" VerticalOptions="Center" />
+                        <Frame BorderColor="Transparent" Grid.Column="1" Padding="0" CornerRadius="5" HorizontalOptions="FillAndExpand">
+                            <local:CustomDatePicker x:Name="dataDatePicker" IsEnabled="false" Format="dd/MM/yyyy" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand"/>
+                        </Frame>
+                    </Grid>
+
+                    <!-- Nº Carga Section -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Nº Carga :" FontSize="Medium" Grid.Column="0" VerticalOptions="Center" />
+                        <Frame BorderColor="Transparent" Grid.Column="1" Padding="0" CornerRadius="5" HorizontalOptions="FillAndExpand">
+                            <local:CustomEntryEnable x:Name="numeroCargaEntry" IsReadOnly="True" Placeholder="Nº Carga" 
+                                                     BackgroundColor="Transparent" HorizontalOptions="End" VerticalOptions="Center"
+                                                      Margin="0"/>
+                        </Frame>
+                    </Grid>
+
+                    <!-- Placa Section -->
+                    
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Placa :" FontSize="Medium" Grid.Column="0" VerticalOptions="Center" />
+                        <Frame BorderColor="Transparent" Grid.Column="1" Padding="0" CornerRadius="5" HorizontalOptions="FillAndExpand">
+                            <local:CustomEntryEnable x:Name="placaEntry" IsReadOnly="True" Placeholder="Placa" BackgroundColor="Transparent"/>
+                        </Frame>
+                    </Grid>
+
+                    <!-- Nome Section -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Nome :" FontSize="Medium" Grid.Column="0" VerticalOptions="Center" />
+                        <Frame BorderColor="Transparent" Grid.Column="1" Padding="0" CornerRadius="5" HorizontalOptions="FillAndExpand">
+                            <local:CustomEntryEnable x:Name="nomeEntry" IsReadOnly="True" Placeholder="Nome" BackgroundColor="Transparent"/>
+                        </Frame>
+                    </Grid>
+
+                    <!-- Entrega Section -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Entrega :" FontSize="Large" VerticalOptions="Center" />
+                        <Frame BorderColor="LightBlue" Grid.Column="1" Padding="0" CornerRadius="5" HorizontalOptions="EndAndExpand">
+                            <local:CustomEntry x:Name="entregaEntry" Keyboard="Numeric" WidthRequest="60" HorizontalTextAlignment="Center" BackgroundColor="Transparent" />
+                        </Frame>
+                    </Grid>
+
+                    <!-- Devolução Section -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Devolução :" FontSize="Large" VerticalOptions="Center" />
+                        <Frame BorderColor="LightBlue" Grid.Column="1" Padding="0" CornerRadius="5" HorizontalOptions="EndAndExpand">
+                            <local:CustomEntry x:Name="devolucaoEntry" Keyboard="Numeric" WidthRequest="60" HorizontalTextAlignment="Center" BackgroundColor="Transparent" />
+                        </Frame>
+                    </Grid>
+
+                    <!-- Foto Section -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Foto :" FontSize="Large" VerticalOptions="Center" />
+                        <Frame BorderColor="Transparent" Grid.Column="1" Padding="0" CornerRadius="5" HorizontalOptions="FillAndExpand">
+                            <local:CustomEntryEnable x:Name="caminhoFotoEntry" Placeholder="Caminho Foto" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
+                        </Frame>
+                        <Button x:Name="TirarFotoButton" Grid.Column="2" Clicked="TirarFoto_Clicked" WidthRequest="40" HeightRequest="40"
+                         VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Transparent" ImageSource="foto.png"/>
+                    </Grid>
+
+                    <!-- Buttons Section -->
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0">
+                        <Button x:Name="GravarButton" Text="Gravar" WidthRequest="200" HorizontalOptions="Center" BackgroundColor="Blue" TextColor="White" Clicked="GravarButton_Clicked"/>
+                        <Button IsVisible="false" Text="Cancelar" WidthRequest="100" HorizontalOptions="CenterAndExpand" BackgroundColor="Red" TextColor="White"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+
+        <!-- Layout de sobreposição para o loading -->
+        <Grid x:Name="loadingOverlay" IsVisible="False" BackgroundColor="Black" Opacity="0.6"
+          AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+            <ActivityIndicator x:Name="activityIndicator"
+                           IsRunning="False"
+                           Color="White"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center" />
+        </Grid>
+    </AbsoluteLayout>
+
+</ContentPage>

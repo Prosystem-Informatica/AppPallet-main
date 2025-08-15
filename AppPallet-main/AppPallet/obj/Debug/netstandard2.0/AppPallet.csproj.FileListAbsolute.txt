@@ -1,0 +1,83 @@
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.deps.json
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.dll
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\bin\Debug\netstandard2.0\ref\AppPallet.dll
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.pdb
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.csproj.AssemblyReference.cache
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.AssemblyInfoInputs.cache
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.AssemblyInfo.cs
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.csproj.CoreCompileInputs.cache
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.dll
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\ref\AppPallet.dll
+C:\Users\marco\Documents\Projetos Sites\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.pdb
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.deps.json
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.dll
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.pdb
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.csproj.AssemblyReference.cache
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.AssemblyInfoInputs.cache
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.AssemblyInfo.cs
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.csproj.CoreCompileInputs.cache
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.dll
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\refint\AppPallet.dll
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.pdb
+C:\Users\teste\OneDrive\Documentos\Projetos\AppPallet\AppPallet\obj\Debug\netstandard2.0\ref\AppPallet.dll
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.deps.json
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.dll
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\bin\Debug\netstandard2.0\ref\AppPallet.dll
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.pdb
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.csproj.AssemblyReference.cache
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.AssemblyInfoInputs.cache
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.AssemblyInfo.cs
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.csproj.CoreCompileInputs.cache
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.dll
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\ref\AppPallet.dll
+C:\Users\marco\Documents\Projetos Sites\Roche\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.pdb
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.deps.json
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.dll
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\bin\Debug\netstandard2.0\AppPallet.pdb
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.csproj.AssemblyReference.cache
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\BaixaPalletPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\CopaPalletPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\CustomPopupPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.AssemblyInfoInputs.cache
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.AssemblyInfo.cs
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.csproj.CoreCompileInputs.cache
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.sourcelink.json
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.dll
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\refint\AppPallet.dll
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\AppPallet.pdb
+C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet\obj\Debug\netstandard2.0\ref\AppPallet.dll
