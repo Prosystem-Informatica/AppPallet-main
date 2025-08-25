@@ -1,51 +1,107 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppPallet.Views.CopaPalletPage"
-             Title="{Binding Title}"
-             xmlns:local="clr-namespace:AppPallet.ViewModels"  
-             xmlns:model="clr-namespace:AppPallet.Models"  
-             x:Name="BrowseItemsPage"
+             Title=""
              NavigationPage.HasBackButton="False">
 
-    <AbsoluteLayout>
-        <!-- Imagem de fundo -->
-        <Image Source="xamarin_logo.png"
-               Aspect="Fill"
-               AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1"
-               AbsoluteLayout.LayoutFlags="All" />
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="#2196F3" Spacing="20">
 
-        <!-- Potinhos -->
-        <BoxView x:Name="PotinhoAmarelo" Color="Yellow"
-                 AbsoluteLayout.LayoutBounds="0, 0, 10, 10"
-                 AbsoluteLayout.LayoutFlags="PositionProportional" />
-        <BoxView x:Name="PotinhoVerde" Color="Green"
-                 AbsoluteLayout.LayoutBounds="0, 0, 10, 10"
-                 AbsoluteLayout.LayoutFlags="PositionProportional" />
-        <BoxView x:Name="PotinhoAzul" Color="Blue"
-                 AbsoluteLayout.LayoutBounds="0, 0, 10, 10"
-                 AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <!-- Título -->
+            <Label Text="Relatorio"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="White"/>
 
-        <!-- Texto com as datas -->
-        <Label 
-           Text="Período Atual"
-           AbsoluteLayout.LayoutBounds="0.5, 55, 1, AutoSize"
-           AbsoluteLayout.LayoutFlags="WidthProportional"
-           HorizontalTextAlignment="Center"
-           VerticalTextAlignment="Start"
-           TextColor="Black"
-           FontSize="16"
-           FontAttributes="Bold"
-           LineBreakMode="WordWrap"/>
+            <!-- Cards em Grid 2x2 -->
+            <Grid ColumnSpacing="15" RowSpacing="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-        <Label x:Name="DataLabel"
-           AbsoluteLayout.LayoutBounds="0.5, 75, 1, AutoSize"
-           AbsoluteLayout.LayoutFlags="WidthProportional"
-           HorizontalTextAlignment="Center"
-           VerticalTextAlignment="Start"
-           TextColor="Black"
-           FontSize="16"
-           FontAttributes="Bold"
-           LineBreakMode="WordWrap"/>
-    </AbsoluteLayout>
+                <!-- Card: Total Viagens -->
+                <Frame Grid.Row="0" Grid.Column="0"
+                       CornerRadius="12"
+                       HasShadow="True"
+                       BackgroundColor="White"
+                       Padding="15">
+                    <StackLayout>
+                        <Label 
+                               Text="Total Viagens"
+                               FontSize="14"
+                               TextColor="Gray"/>
+                        <Label x:Name="TotalViagensLabel" 
+                               Text="-"
+                               FontSize="24"
+                               FontAttributes="Bold"
+                               TextColor="Black"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Card: Normais -->
+                <Frame Grid.Row="0" Grid.Column="1"
+                       CornerRadius="12"
+                       HasShadow="True"
+                       BackgroundColor="White"
+                       Padding="15">
+                    <StackLayout>
+                        <Label 
+                               Text="Normais"
+                               FontSize="14"
+                               TextColor="Gray"/>
+                        <Label x:Name="NormaisLabel" 
+                               Text="-"
+                               FontSize="24"
+                               FontAttributes="Bold"
+                               TextColor="Black"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Card: Extras -->
+                <Frame Grid.Row="1" Grid.Column="0"
+                       CornerRadius="12"
+                       HasShadow="True"
+                       BackgroundColor="White"
+                       Padding="15">
+                    <StackLayout>
+                        <Label  
+                               Text="Extras"
+                               FontSize="14"
+                               TextColor="Gray"/>
+                        <Label x:Name="ExtrasLabel"
+                               Text="-"
+                               FontSize="24"
+                               FontAttributes="Bold"
+                               TextColor="Black"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Card: Devoluções -->
+                <Frame Grid.Row="1" Grid.Column="1"
+                       CornerRadius="12"
+                       HasShadow="True"
+                       BackgroundColor="White"
+                       Padding="15">
+                    <StackLayout>
+                        <Label  
+                               Text="Devolucoes"
+                               FontSize="14"
+                               TextColor="Gray"/>
+                        <Label 
+                               x:Name="DevolucoesLabel"
+                               Text="-"
+                               FontSize="24"
+                               FontAttributes="Bold"
+                               TextColor="Black"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

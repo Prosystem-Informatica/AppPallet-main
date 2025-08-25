@@ -11,6 +11,8 @@
                FontSize="Medium" 
                TextColor="White" 
                Margin="20,10,10,10"/>
+
+            
         </StackLayout>
     </Shell.FlyoutHeader>
 
@@ -72,9 +74,6 @@
         </ResourceDictionary>
     </Shell.Resources>
     
-    <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
-    <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
-    </MenuItem>
 
     <!---->
     <FlyoutItem Title="Copa dos Paletes" Icon="icon_feed.png" IsEnabled="True" >
@@ -83,8 +82,12 @@
     <FlyoutItem Title="Baixa Palete" Icon="icon_about.png" IsEnabled="True" >
         <ShellContent Route="BaixaPalletPage" ContentTemplate="{DataTemplate local:BaixaPalletPage}" />
     </FlyoutItem>
-    
-     <!-- Define as páginas como rotas, mas não as exibe no Flyout 
+    <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
+
+    <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    </MenuItem>
+
+    <!-- Define as páginas como rotas, mas não as exibe no Flyout 
     <ShellContent  ContentTemplate="{DataTemplate local:CopaPalletPage}" IsEnabled="False"/>
     <ShellContent Route="BaixaPalletPage" ContentTemplate="{DataTemplate local:BaixaPalletPage}" />
     -->

@@ -14,7 +14,7 @@ androidlinkskip=
 androidsdkbuildtoolsversion=32.0.0
 androidsdkpath=c:\program files (x86)\android\android-sdk\
 androidndkpath=
-javasdkpath=c:\program files\java\jdk-24\
+javasdkpath=c:\program files\eclipse adoptium\jdk-11.0.28.6-hotspot\
 androidsequencepointsmode=none
 xamarinandroidversion=13.2.2-0
 monosymbolarchive=false
@@ -25,7 +25,7 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638908600518572332
+_nugetassetstimestamp=638908921260756699
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a

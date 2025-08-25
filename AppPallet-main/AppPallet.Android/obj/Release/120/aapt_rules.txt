@@ -1,24 +1,24 @@
 #Auto Generated file. Do not Edit.
-# Data from C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\android\manifest\aapt_rules.txt
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:22
+# Data from C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\android\manifest\aapt_rules.txt
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:22
 -keep class android.app.Application { <init>(); }
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:22
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:22
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:24
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:24
 -keep class androidx.core.content.FileProvider { <init>(); }
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:32
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:32
 -keep class crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver { <init>(); }
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:27
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:27
 -keep class crc646957603ea1820544.MediaPickerActivity { <init>(); }
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:28
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:28
 -keep class crc64a0e0a82d0db9a07d.IntermediateActivity { <init>(); }
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:33
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:33
 -keep class crc64e99f36f9af527773.MainActivity { <init>(); }
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:34
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:34
 -keep class crc64e99f36f9af527773.SplashActivity { <init>(); }
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:40
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:40
 -keep class mono.MonoRuntimeProvider { <init>(); }
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:29
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\android\manifest\AndroidManifest.xml:29
 -keep class xamarin.essentials.fileProvider { <init>(); }
 # Referenced at res/layout/abc_alert_dialog_button_bar_material.xml:43
 # Referenced at res/layout/abc_alert_dialog_material.xml:52
@@ -87,10 +87,10 @@
 -keep class androidx.appcompat.widget.SwitchCompat { <init>(...); }
 
 # Referenced at res/layout/abc_screen_toolbar.xml:36
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\fallbacktoolbardonotuse.xml:1
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\rootlayout.xml:1
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\shellcontent.xml:1
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\toolbar.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\fallbacktoolbardonotuse.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\rootlayout.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\shellcontent.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\toolbar.xml:1
 -keep class androidx.appcompat.widget.Toolbar { <init>(...); }
 
 # Referenced at res/layout/abc_screen_simple.xml:25
@@ -110,8 +110,8 @@
 -keep class androidx.constraintlayout.widget.Guideline { <init>(...); }
 
 # Referenced at res/layout/design_bottom_sheet_dialog.xml:26
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\rootlayout.xml:1
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\shellcontent.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\rootlayout.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\shellcontent.xml:1
 -keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(...); }
 
 # Referenced at res/layout/abc_alert_dialog_material.xml:41
@@ -132,9 +132,9 @@
 # Referenced at res/layout/preference_recyclerview.xml:18
 -keep class androidx.recyclerview.widget.RecyclerView { <init>(...); }
 
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\flyoutcontent.xml:1
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\rootlayout.xml:1
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\shellcontent.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\flyoutcontent.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\rootlayout.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\shellcontent.xml:1
 -keep class com.google.android.material.appbar.AppBarLayout { <init>(...); }
 
 # Referenced at res/layout/test_toolbar.xml:16
@@ -143,7 +143,7 @@
 # Referenced at res/layout/test_toolbar_surface.xml:16
 -keep class com.google.android.material.appbar.MaterialToolbar { <init>(...); }
 
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\bottomtablayout.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\bottomtablayout.xml:1
 -keep class com.google.android.material.bottomnavigation.BottomNavigationView { <init>(...); }
 
 # Referenced at res/layout/material_clock_period_toggle.xml:35
@@ -192,9 +192,9 @@
 # Referenced at res/layout/mtrl_layout_snackbar_include.xml:18
 -keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(...); }
 
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\fallbacktabbardonotuse.xml:1
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\rootlayout.xml:1
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\tabbar.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\fallbacktabbardonotuse.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\rootlayout.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\tabbar.xml:1
 -keep class com.google.android.material.tabs.TabLayout { <init>(...); }
 
 # Referenced at res/layout/mtrl_picker_text_input_date.xml:31
@@ -225,9 +225,9 @@
 # Referenced at res/layout/material_timepicker_dialog.xml:46
 -keep class com.google.android.material.timepicker.TimePickerView { <init>(...); }
 
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\flyoutcontent.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\flyoutcontent.xml:1
 -keep class crc643f46942d9dd1fff9.ShellFlyoutLayout { <init>(...); }
 
-# Referenced at C:\Users\teste\OneDrive\Documentos\GitHub\AppPallet\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\rootlayout.xml:1
+# Referenced at C:\Users\vanni\Downloads\AppPallet-main\AppPallet-main\AppPallet.Android\obj\Release\120\lp\65\jl\res\layout\rootlayout.xml:1
 -keep class crc64720bb2db43a66fe9.FormsViewPager { <init>(...); }
 

@@ -44,7 +44,7 @@ namespace AppPallet.Views
                 DadosServicos.Instance.AcessoDados = buscaDados.GetAllLoginAcessoData().FirstOrDefault();
                 DadosServicos.Instance.LoginDados = buscaDados.GetAllLoginData().FirstOrDefault();
                 Login dados = _controleRepository.GetAllLoginData().FirstOrDefault();
-                maskedEditCNPJ.Value = dados.cnpj; //"09334805000146";
+                maskedEditCNPJ.Value = "09334805000146"; // dados.cnpj;
                 maskedEditLogin.Value = dados.login; //"marceli";
                 maskedEditSenha.Value = dados.senha; //"it1010";
                 await Entrar();

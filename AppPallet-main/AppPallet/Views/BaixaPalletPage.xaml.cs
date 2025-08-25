@@ -318,11 +318,11 @@ namespace AppPallet.Views
         }
         private async Task<bool> UploadImageAsync(int cargaId, int quantidadeEntregue, int quantidadeDevolvido, byte[] imageBytes)
         {
-            if (imageBytes == null || imageBytes.Length == 0)
+            /*if (imageBytes == null || imageBytes.Length == 0)
             {
                 await App.Current.MainPage.DisplayAlert("Error", "Os dados da imagem são inválidos ou estão vazios.", "OK");
                 return false;
-            }
+            }*/
 
             if (cargaId <= 0 || quantidadeEntregue < 0 || quantidadeDevolvido < 0)
             {
@@ -332,25 +332,29 @@ namespace AppPallet.Views
 
             try
             {
-                // Convertendo a imagem para Base64
-                //var base64Image = Convert.ToBase64String(imageBytes);
                 var base64Image = await CompressAndConvertImageToBase64(imageBytes);
-
-                // Calculando o tamanho da string Base64 em bytes
-                int base64ImageSizeInBytes = System.Text.Encoding.UTF8.GetByteCount(base64Image);
-
-                // Calcula o tamanho em megabytes
-                double sizeInMb = base64ImageSizeInBytes / (1024.0 * 1024.0);
-
-                // Exibindo o tamanho da imagem convertida
-                Console.WriteLine($"Base64 image size: {base64ImageSizeInBytes} bytes");
-
-                // Checando se o tamanho é aceitável (opcional)
-                if (base64ImageSizeInBytes > 5000000) // Por exemplo, limite de 5MB
+                if (imageBytes != null || imageBytes.Length != 0)
                 {
-                    await App.Current.MainPage.DisplayAlert("Error", "A imagem é muito grande.", "OK");
-                    return false;
+                    // Convertendo a imagem para Base64
+                    //var base64Image = Convert.ToBase64String(imageBytes);
+
+                    // Calculando o tamanho da string Base64 em bytes
+                    int base64ImageSizeInBytes = System.Text.Encoding.UTF8.GetByteCount(base64Image);
+
+                    // Calcula o tamanho em megabytes
+                    double sizeInMb = base64ImageSizeInBytes / (1024.0 * 1024.0);
+
+                    // Exibindo o tamanho da imagem convertida
+                    Console.WriteLine($"Base64 image size: {base64ImageSizeInBytes} bytes");
+
+                    // Checando se o tamanho é aceitável (opcional)
+                    if (base64ImageSizeInBytes > 5000000) // Por exemplo, limite de 5MB
+                    {
+                        await App.Current.MainPage.DisplayAlert("Error", "A imagem é muito grande.", "OK");
+                        return false;
+                    }
                 }
+                
 
                 var content = new
                 {

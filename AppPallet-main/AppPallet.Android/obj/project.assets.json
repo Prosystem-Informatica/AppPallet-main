@@ -5820,24 +5820,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\teste\\.nuget\\packages\\": {},
+    "C:\\Users\\vanni\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet.Android\\AppPallet.Android.csproj",
+      "projectUniqueName": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet.Android\\AppPallet.Android.csproj",
       "projectName": "AppPallet.Android",
-      "projectPath": "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet.Android\\AppPallet.Android.csproj",
-      "packagesPath": "C:\\Users\\teste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet.Android\\obj\\",
+      "projectPath": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet.Android\\AppPallet.Android.csproj",
+      "packagesPath": "C:\\Users\\vanni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\teste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5851,8 +5852,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet\\AppPallet.csproj": {
-              "projectPath": "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet\\AppPallet.csproj"
+            "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\AppPallet.csproj": {
+              "projectPath": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\AppPallet.csproj"
             }
           }
         }
@@ -5935,7 +5936,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.3 to 1.7.0. Reference the package directly from the project to select a different version. \r\n AppPallet.Android -> AppPallet -> Xam.Plugin.Media 6.0.2 -> Xamarin.Essentials (>= 1.7.3) \r\n AppPallet.Android -> Xamarin.Essentials (>= 1.7.0)",
+      "message": "Downgrade de pacote detectado: Xamarin.Essentials de 1.7.3 para 1.7.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n AppPallet.Android -> AppPallet -> Xam.Plugin.Media 6.0.2 -> Xamarin.Essentials (>= 1.7.3) \r\n AppPallet.Android -> Xamarin.Essentials (>= 1.7.0)",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
         "MonoAndroid,Version=v12.0"

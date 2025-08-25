@@ -31,13 +31,12 @@
                             <Image Grid.RowSpan="2" Source="logo_login" HeightRequest="64" VerticalOptions="Start" Aspect="AspectFit" />
                         </ContentView>
                     </StackLayout>
-
                     <!-- Information Frame -->
                     <Frame Grid.Row="1" HasShadow="False" Margin="15,0,15,50" VerticalOptions="FillAndExpand" CornerRadius="20" Opacity="0.9" BackgroundColor="#5454ff">
                         <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto" RowSpacing="25" Padding="0,10,0,0">
                             <Frame BorderColor="LightBlue" Padding="10,0,10,0" CornerRadius="5" Grid.Row="0" HorizontalOptions="FillAndExpand">
                                 <maskededit:SfMaskedEdit x:Name="maskedEditCNPJ" TextColor="Black" WatermarkColor="Black" BorderColor="White"
-                                                      Watermark="CNPJ" Mask="00,000,000/0000-00" Keyboard="Numeric" />
+                                                      Watermark="CNPJ" Mask="00.000.000/0000-00" Keyboard="Numeric" />
                             </Frame>
                             <Frame BorderColor="LightBlue" Padding="10,0,10,0" CornerRadius="5" Grid.Row="1" HorizontalOptions="FillAndExpand">
                                 <maskededit:SfMaskedEdit x:Name="maskedEditLogin" TextColor="Black" WatermarkColor="Black" BorderColor="White"

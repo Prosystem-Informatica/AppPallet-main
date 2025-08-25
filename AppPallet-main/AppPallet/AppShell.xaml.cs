@@ -11,8 +11,13 @@ namespace AppPallet
     public partial class AppShell : Xamarin.Forms.Shell, INotifyPropertyChanged
     {
         public IControleRepository _controleRepository;
+
         public Command OpenMenuCommand { get; }
         private string userName;
+        public string TOTAL_VIAGENS { get; set; } = "18";
+        public string VIAGENS_NORAML { get; set; } = "18";
+        public string VIAGENS_EXTRA { get; set; } = "0";
+        public string TOTAL_DEV { get; set; } = "80";
         public string UserName
         {
             get => userName;

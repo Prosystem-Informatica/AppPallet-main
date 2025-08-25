@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|c:\\users\\vanni\\downloads\\apppallet-main\\apppallet-main\\apppallet\\appshell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|solutionrelative:apppallet\\appshell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|c:\\users\\vanni\\downloads\\apppallet-main\\apppallet-main\\apppallet\\views\\copapalletpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|solutionrelative:apppallet\\views\\copapalletpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|c:\\users\\vanni\\downloads\\apppallet-main\\apppallet-main\\apppallet\\views\\copapalletpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|solutionrelative:apppallet\\views\\copapalletpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|c:\\users\\vanni\\downloads\\apppallet-main\\apppallet-main\\apppallet\\viewmodels\\copapalletviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|solutionrelative:apppallet\\viewmodels\\copapalletviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|c:\\users\\vanni\\downloads\\apppallet-main\\apppallet-main\\apppallet\\viewmodels\\itemsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|solutionrelative:apppallet\\viewmodels\\itemsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|c:\\users\\vanni\\downloads\\apppallet-main\\apppallet-main\\apppallet\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75EE8726-88A4-44F7-8FB5-408E9A9E8FCC}|AppPallet\\AppPallet.csproj|solutionrelative:apppallet\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{35a13b2b-183b-3ec5-a509-0bd77da1a60c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CopaPalletViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\ViewModels\\CopaPalletViewModel.cs",
+              "RelativeDocumentMoniker": "AppPallet\\ViewModels\\CopaPalletViewModel.cs",
+              "ToolTip": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\ViewModels\\CopaPalletViewModel.cs",
+              "RelativeToolTip": "AppPallet\\ViewModels\\CopaPalletViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T15:55:57.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CopaPalletPage.xaml",
+              "DocumentMoniker": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\Views\\CopaPalletPage.xaml",
+              "RelativeDocumentMoniker": "AppPallet\\Views\\CopaPalletPage.xaml",
+              "ToolTip": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\Views\\CopaPalletPage.xaml",
+              "RelativeToolTip": "AppPallet\\Views\\CopaPalletPage.xaml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAhwDkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-24T15:04:30.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\ViewModels\\ItemsViewModel.cs",
+              "RelativeDocumentMoniker": "AppPallet\\ViewModels\\ItemsViewModel.cs",
+              "ToolTip": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\ViewModels\\ItemsViewModel.cs",
+              "RelativeToolTip": "AppPallet\\ViewModels\\ItemsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T15:04:05.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CopaPalletPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\Views\\CopaPalletPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppPallet\\Views\\CopaPalletPage.xaml.cs",
+              "ToolTip": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\Views\\CopaPalletPage.xaml.cs",
+              "RelativeToolTip": "AppPallet\\Views\\CopaPalletPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwB4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:02:10.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppPallet\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppPallet\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:01:33.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppPallet\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\AppShell.xaml",
+              "RelativeToolTip": "AppPallet\\AppShell.xaml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-20T19:38:56.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

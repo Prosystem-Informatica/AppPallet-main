@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet.iOS\\AppPallet.iOS.csproj": {}
+    "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet.iOS\\AppPallet.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet.iOS\\AppPallet.iOS.csproj": {
+    "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet.iOS\\AppPallet.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet.iOS\\AppPallet.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet.iOS\\AppPallet.iOS.csproj",
         "projectName": "AppPallet.iOS",
-        "projectPath": "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet.iOS\\AppPallet.iOS.csproj",
-        "packagesPath": "C:\\Users\\teste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet.iOS\\obj\\",
+        "projectPath": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet.iOS\\AppPallet.iOS.csproj",
+        "packagesPath": "C:\\Users\\vanni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\teste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +33,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet\\AppPallet.csproj": {
-                "projectPath": "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet\\AppPallet.csproj"
+              "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\AppPallet.csproj": {
+                "projectPath": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\AppPallet.csproj"
               }
             }
           }
@@ -117,20 +118,20 @@
         }
       }
     },
-    "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet\\AppPallet.csproj": {
+    "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\AppPallet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet\\AppPallet.csproj",
+        "projectUniqueName": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\AppPallet.csproj",
         "projectName": "AppPallet",
-        "projectPath": "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet\\AppPallet.csproj",
-        "packagesPath": "C:\\Users\\teste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\teste\\OneDrive\\Documentos\\GitHub\\AppPallet\\AppPallet\\obj\\",
+        "projectPath": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\AppPallet.csproj",
+        "packagesPath": "C:\\Users\\vanni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vanni\\Downloads\\AppPallet-main\\AppPallet-main\\AppPallet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\teste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -157,7 +158,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "netstandard2.0": {
@@ -237,7 +239,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
